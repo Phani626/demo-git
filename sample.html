@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="one"/>
+    <input type="text" id="two"/>
+    <input type="button" onclick="check()"/>
+    <script>
+        function check(){
+            let a = parseInt(document.getElementById("one").value);
+            let b = parseInt(document.getElementById("two").value);
+            let c = a + b;
+            console.log(a,b,c);
+            document.write(c);
+        }
+    </script>
+</body>
+</html>
